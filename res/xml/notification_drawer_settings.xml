@@ -55,7 +55,7 @@
             android:entryValues="@array/qs_num_columns_values"
             android:persistent="false" />
 
-        <com.android.settings.cyanogenmod.SecureSettingSwitchPreference
+        <com.android.settings.cyanogenmod.CMSecureSettingSwitchPreference
             android:key="sysui_qs_main_tiles"
             android:title="@string/qs_main_tiles_title"
             android:defaultValue="true" />
@@ -66,7 +66,7 @@
             android:defaultValue="false"
             settings:advanced="true"/>
 
-        <com.android.settings.cyanogenmod.SecureSettingSwitchPreference
+        <com.android.settings.cyanogenmod.CMSecureSettingSwitchPreference
             android:key="qs_show_brightness_slider"
             android:title="@string/qs_brightness_slider_title"
             android:defaultValue="true"/>
