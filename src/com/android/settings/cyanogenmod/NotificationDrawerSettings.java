@@ -32,6 +32,7 @@ import com.android.settings.cyanogenmod.qs.DraggableGridView;
 import com.android.settings.cyanogenmod.qs.QSTiles;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
+import android.provider.Settings;
 
 import cyanogenmod.providers.CMSettings;
 
